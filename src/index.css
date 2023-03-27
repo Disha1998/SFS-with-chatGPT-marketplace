@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  color: white !important;
+}
+
+code {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  background: #000 !important;
+}
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-ky6m1t-MuiPaper-root-MuiAppBar-root {
+  background: #000 !important;
+  margin: 0 10px;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.story {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 110px; */
+  height: 205px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.story p {
+  padding: 5px;
+  overflow-wrap: break-word;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+/* .story image {
+  height: 100px !important;
+  margin: 7px !important;
+} */
+
+.story:hover {
+  transform: scale(1.05);
+}
+.MuiBox-root.css-19kzrtu{
+  padding: '24px 0' !important;
+}
+.css-19kzrtu{
+  padding: 24px 0 !important;
+}
+
+.story Button {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  margin: 0 7px;
+  width: 90%;
+  overflow-wrap: break-word;
+  color: white;
+  border: 1px solid transparent;
+
+}
+
+.foryouIcons {
+  /* background-color: white !important; */
+  /* margin-right: 222px !important; */
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  font-weight: 500;
+  margin: 10px;
+
+}
+
+.is-sticky {
+  position: fixed;
+  display: block;
+  top: 60px;
+  width: 60%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  z-index: 9999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.isSticky {
+  background-color: 'rgba(0, 0, 0,0.5)'
+}
+
+.isNotSticky {
+  background-color: 'rgba(255, 255, 255,0.1)'
+}
+
+button {
+  font-family: 'Rubik', sans-serif !important;
+  text-transform: capitalize !important;
+  font-weight: 500;
+}
+
+.MuiBox-root.css-nv1v7g,
+.footer-position {
+  min-height: calc(100vh - 34px);
+}
+
+.footer-size {
+  position: relative;
+  left: 0;
+  bottom: 0
+}
+
+.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop,
+.MuiBackdrop-root.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+  background-color: 'rgba(255, 255, 255,0.4)' !important
+}
+
+.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container {
+  background-color: rgba(225, 225, 225, 0.5) !important;
+}
+
+/* right navv */
+
+.gLEkw .UulOO {
+  font-size: 15px;
+}
+
+.QK2Zh .fTJAC {
+  font-size: 15px;
+  color: grey;
+}
+
+.rightnav {
+  background: #00162f;
+  /* width: 8%; */
+  padding: 3px 0 13px 0;
+  border-radius: '6px' !important; 
+}
+
+/* // --------------- NEW PROFILE POST ---------------------- */
+
+.post-profile {
+  width: 45px;
+  height: 43px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.profile-tab {
+  /* width: 25%; */
+}
+
+.new-profile-follw-btn {
+  margin-top: 20px !important;
+
+}
+
+.post-img img {
+  /* height: 60%; */
+  width: 103% !important;
+}
+
+.like-comment-icons {
+  margin-left: 5px !;
+}
+
+.bg-img {
+  width: 100%;  
+  min-height: 240px;
+}
+.bg-img-detail{
+  width: 100%;  
+  min-height: 130px;
+  border-radius: 8px;
+}
+.profile-picture-detail {
+  width: 29%; 
+  border: 3px solid white;
+  background-color: darkgray;
+}
+
+.profile-picture {
+  width: 19%;
+  margin-top: -63px;
+  border: 3px solid white;
+  background-color: darkgray;
+}
+
+.profile-edit-space{
+   display: flex;
+   justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .bg-img {
+    display: none;
+  }
+  .profile-picture {
+    width: 29%;
+    margin-top: 10px; 
+  }
+  .profile-edit-space{
+    display: block;
+    /* justify-content: space-between; */
+ }
+  
+}
+ 
